@@ -8,6 +8,6 @@
 /vcs.xml
 
 # Ignore specific .java files
-demo1.java
-demo2.java
-demo1.class
+out/demo1.java
+out/demo2.java
+out/demo1.class
