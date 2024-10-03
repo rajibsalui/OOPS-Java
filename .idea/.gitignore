@@ -6,6 +6,8 @@
 /modules.xml
 /uiDesigner.xml
 /vcs.xml
+
+# Ignore specific .java files
 demo1.java
 demo2.java
 demo1.class
