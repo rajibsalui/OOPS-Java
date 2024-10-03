@@ -1,5 +1,11 @@
 # Default ignored files
 /shelf/
 /workspace.xml
+/misc.xml
+/*.iml
+/modules.xml
+/uiDesigner.xml
+/vcs.xml
 demo1.java
 demo2.java
+demo1.class
