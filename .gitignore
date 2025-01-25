@@ -6,6 +6,7 @@
 /uiDesigner.xml
 /vcs.xml
 
-# Ignore specific .java files
+# Ignore specific java folders
 /demo/
 /out/
+/.idea/

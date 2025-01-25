@@ -5,7 +5,7 @@ public class Student{
     String name;
     int marks;
     final String clgName = "NSEC";
-    static int countStud = 0;
+    int countStud = 0;
 
     //constructor
     public Student(int roll, String name, int marks){
@@ -14,9 +14,10 @@ public class Student{
         this.marks = marks;
 
     }
-    public static int getCountStud(){
+    public int getCountStud(){
         return countStud++;
     }
+
 //    public String setNames(String name){
 //        this.name = name;
 //        return name;

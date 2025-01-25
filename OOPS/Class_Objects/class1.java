@@ -3,13 +3,8 @@ package OOPS.Class_Objects;
 import java.util.Scanner;
 
 public class class1 {
-//    public static  class Student{
-//        int roll;
-//        String name;
-//        int marks;
-//
-//    }
-    public static void display(Student s)
+
+    public void display(Student s)
     {
         System.out.println("Roll: "+s.roll);
         System.out.println("Name: "+s.name);
@@ -19,10 +14,12 @@ public class class1 {
     }
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter the number of students: "+Student.getCountStud());
+        System.out.println("Enter the number of students: ");
+        int n = sc.nextInt();
         //object 1
         Student s1=new Student(115,"Raj",99);
-        System.out.println(s1.getCountStud());
+        class1 c1 = new class1();
+        c1.display(s1);
 //
 //        s1.roll=1;
 //        s1.name="John";
@@ -31,14 +28,16 @@ public class class1 {
 //
 //        //object 2
        Student s2=new Student(116,"rohan",98);
-        System.out.println(s2.getCountStud());
+
+        c1.display(s2);
 //        s2.roll=15;
 //        s2.name="Raj";
 //        s2.marks=99;
 //        display(s2);
 
         Student s3=new Student(117,"rohit",97);
-        System.out.println(s3.getCountStud());
+
+        c1.display(s3);
 
         //using setters
 //        System.out.println("Enter the name: ");
